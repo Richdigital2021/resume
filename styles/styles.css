@@ -31,10 +31,16 @@ img{
     padding: 0 5px 15px;
     gap: 1rem;
 }
+img:hover{
+    transform: scale(1.01);
+}
 
 a{
     text-decoration: none;
     color: #fff;
+}
+a:hover{
+    color: var(--primary-color);
 }
 
 .description{
